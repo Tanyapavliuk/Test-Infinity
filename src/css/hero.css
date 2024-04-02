@@ -1,0 +1,108 @@
+.hero__wrapper {
+  padding: 27px 0 23px;
+  background-image: url('../image/heroBg.webp');
+  background-origin: border-box;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+}
+.man {
+  position: absolute;
+  right: -85px;
+  bottom: 0px;
+
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+    .man {
+        right: -18px;
+        width: 600px;
+    }
+  }
+@media screen and (min-width: 1200px) {
+    .man {
+        width: 774.32px;
+    }
+  }
+
+.logo__wrapper {
+  width: min-content;
+  padding: 20px;
+  margin-bottom: 91px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('../image/border-topLeft.webp'),
+    url('../image/border-topRight.webp'),
+    url('../image/border-bottomRigth.webp'),
+    url('../image/border-bottomLeft.webp');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top 0px left 0px, top 0px right 0px, bottom 0px right 0px,
+    bottom 0px left 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__wrapper {
+    width: 409px;
+    height: 158px;
+  }
+}
+
+.logo {
+  padding: 20px 48px 20px 32px;
+  background-color: var(--accent-blue);
+  border: 6px solid var(--white);
+
+  color: var(--white);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    padding: 0 76px 0 55px;
+    width: 382px;
+    height: 133px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+.logo__accent {
+  color: var(--accent-yellow);
+}
+
+.schedule {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+@media screen and (min-width:768px) {
+  .schedule {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+.schedule-each {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.schedule-day {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-right: 8px;
+  background-color: var(--accent-yellow);
+  color: var(--accent-blue);
+}
+
+.schedule-time {
+  display: inline-block;
+  font-weight: 800;
+}

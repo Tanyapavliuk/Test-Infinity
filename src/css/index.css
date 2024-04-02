@@ -1,0 +1,312 @@
+@import './reset.css';
+@import './container.css';
+@import './variables.css';
+@import './hero.css';
+@import './popUp.css';
+
+.main {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  padding-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .main {
+    margin-top: 49px;
+    margin-bottom: 58px;
+    padding-bottom: 21px;
+  }
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: var(--red);
+}
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 29px;
+    line-height: 35px;
+  }
+}
+
+.main-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--grey);
+  text-align: end;
+
+  margin-top: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .main-info {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+.info__main-text {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 23px;
+  color: var(--grey-dark);
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .info__main-text {
+    font-size: 29px;
+    line-height: 35px;
+  }
+}
+.screen {
+  width: 735px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .screen {
+    margin-bottom: 132px;
+  }
+}
+
+.text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--grey-dark);
+}
+
+@media screen and (min-width: 1200px) {
+  .text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.conspiracy {
+  width: 1024px;
+  margin-bottom: 47px;
+}
+.question {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--grey-dark);
+}
+
+@media screen and (min-width: 1200px) {
+  .question {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+/* -----irynaPankratova----- */
+.irynaPankratova .text:first-child {
+  color: var(--red);
+  margin-bottom: 50px;
+}
+.text .free {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.irynaPankratova-photo {
+  width: 1026px;
+  margin-bottom: 45px;
+}
+/* ---dmytroNedilko---- */
+
+.dmytroNedilko {
+  margin-top: 74px;
+}
+.dmytroNedilko-photo {
+  width: 1025px;
+  margin-bottom: 44px;
+}
+
+/* -----sergeyChereda---- */
+.sergeyChereda {
+  margin-top: 81px;
+}
+.sergeyChereda-photo {
+  width: 1025px;
+  margin-bottom: 54px;
+}
+
+/* ----avocardine ---- */
+.avocardine-photo {
+  width: 693px;
+  margin: 0 auto 50px;
+}
+
+.offer {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  color: var(--grey-dark);
+  margin-bottom: 19px;
+}
+@media screen and (min-width: 1200px) {
+  .offer {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    color: var(--grey-dark);
+    margin-bottom: 19px;
+  }
+}
+.attention {
+  color: var(--red);
+  margin-bottom: 30px;
+}
+
+/* form */
+.form-wrapper {
+  width: 100%;
+  height: min-content;
+  margin: 0 auto;
+  border: 3px var(--grey) solid;
+
+  padding: 20px 10px;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 1200px) {
+  .form-wrapper {
+    padding: 40px 40px 30px;
+    width: 60%;
+
+    border-width: 10px;
+  }
+}
+
+.medic-logo__wrapper {
+  width: max-content;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 100%;
+  border: 1px #32abe2 solid;
+}
+
+.medic-logo {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31px;
+  color: var(--grey-dark);
+  text-align: center;
+  margin: 15px 0;
+}
+@media screen and (min-width: 1200px) {
+  .form-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+.form-number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--accent-blue);
+  text-align: center;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .form-number {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.form-info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--grey-dark);
+  text-align: center;
+}
+.form-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--grey-dark);
+  text-align: center;
+  padding: 0 10px;
+
+  border: 2px #32abe2 solid;
+  margin: 10px 0 30px;
+}
+@media screen and (min-width: 1200px) {
+  .form-text {
+    margin: 20px 0 50px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+#timer{
+  text-align: center;
+  color: var(--red);
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+.input {
+  font-size: 21px;
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .input {
+    padding: 10px 30px 10px;
+    font-size: 30px;
+  }
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #32abe2;
+  color: var(--white);
+
+  font-size: 21px;
+  font-weight: 600;
+  transition: all 250ms linear;
+}
+
+.form-button:hover {
+ background-color: var(--accent-blue);
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-button {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+}
+
+.form-confidentially {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--grey-dark);
+}
+@media screen and (min-width: 1200px) {
+  .form-confidentially {
+    font-size: 20px;
+  }
+}

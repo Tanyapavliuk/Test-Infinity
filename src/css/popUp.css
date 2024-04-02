@@ -1,0 +1,87 @@
+.popUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: min-content;
+
+  background-color: var(--white);
+  padding: 10px 15px;
+
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+@media screen and (min-width: 768px) {
+  .popUp {
+    width: 500px;
+    padding: 30px 20px;
+    gap: 24px;
+  }
+}
+
+.popUp-title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--red);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .popUp-title {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+.popUp-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: var(--grey-dark);
+
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .popUp-title {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+
+.popUp-button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #32abe2;
+  color: var(--white);
+  text-align: center;
+
+  font-size: 21px;
+  font-weight: 600;
+  transition: all 250ms linear;
+  animation: pulse 500ms cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.popUp-button:hover {
+  background-color: var(--accent-blue);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.popUp.show {
+  display: flex;
+}
