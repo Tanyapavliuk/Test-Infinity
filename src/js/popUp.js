@@ -4,9 +4,6 @@ const popUpButton = document.querySelector('.popUp-button');
 document.documentElement.addEventListener('mouseleave', function (event) {
   popUpEl.classList.add('show');
 
-  popUpButton.addEventListener('click', function (){
-    popUpEl.classList.remove('show');
-  })
 });
 
 window.onload = function() {
@@ -14,3 +11,7 @@ window.onload = function() {
     popUpEl.classList.add('show');
   }, 20000); 
 };
+
+popUpButton.addEventListener('click', function (){
+  popUpEl.classList.remove('show');
+})
