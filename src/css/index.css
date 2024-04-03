@@ -258,6 +258,12 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .form {
+    width:60%;
+  }
+}
+
 .label {
   text-transform: uppercase;
 }
